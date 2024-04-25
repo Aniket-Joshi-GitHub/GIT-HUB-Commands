@@ -1,0 +1,16 @@
+How can we create a Git Repository?
+git init
+This command initializes a Git Repository on your local machine.
+You only need to run this command once per project.
+
+git status
+This command will report back the status of your Git repository.
+
+git clone
+use git clone to clone it to our local computer.
+
+Clone Syntax with PAT:
+git clone https://token@github.com/account/repo.git
+
+Previously we used:
+git clone https://github.com/account/repo.git
