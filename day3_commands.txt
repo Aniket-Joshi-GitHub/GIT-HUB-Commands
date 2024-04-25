@@ -1,0 +1,17 @@
+We tell git we want to add a remote branch using the git remote command syntax:
+git remote add name https://url.git
+
+By convention, we call this remote branch the origin branch.
+git remote add origin https://url.git
+
+You then replace the .git URL with the .git URL from the repository you created.
+
+
+
+We won’t use these commands in the video, but just in case you need them in the future:
+git remote rename <old> <new>
+git remote remove <name>
+
+
+We tell git to push to the remote main/master branch called origin with the command:
+git push -u origin main/master
