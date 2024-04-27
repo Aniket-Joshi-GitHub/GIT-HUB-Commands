@@ -15,3 +15,6 @@ git remote remove <name>
 
 We tell git to push to the remote main/master branch called origin with the command:
 git push -u origin main/master
+
+How to rename the branch 
+git branch -m new-branch-name
